@@ -1,0 +1,133 @@
+.container {
+	display: grid;
+	grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 1fr 10%;
+	grid-auto-rows: minmax(80px, auto);
+}
+
+.navbar {
+	width: 100%;
+	height: 95px;
+	position: fixed;
+	background-color: white;
+	top: 0px;
+	/*left: 10%;*/
+	border-color: grey;
+	border: 10px; 
+	z-index: 10;
+}
+#mainLogo {
+	margin-left: 10%;
+	float: left;
+	width: 115px;
+	height: auto;
+}
+#allTabs {
+	margin-right: 10%;
+}
+.navTabs {
+	margin-top: 10px;
+	text-align:center;
+	float: right;
+	width: 160px;
+	border-left: 1px solid grey; 
+	height: auto;
+	margin-left: 5px;
+}
+.active {
+	color: #0d52ec;
+	text-decoration: underline;
+}
+#centerLogo {
+	position: relative;
+	top: -70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.mainImage {
+	background-image: url("../images/bBackground.jpg");
+	height: 400px;
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	
+}
+#imgBox {
+	text-align: center;
+	position: relative;
+	top: -340px;
+	left: 74%;
+	width: 200px;
+	height: auto;
+}
+#quoteText {
+	font-size: 1.1em;
+}
+#quoteLink {
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#0d52ec;
+	width: 130px;
+	height: 30px; 
+	text-align: center;
+	border:3px solid black;
+	border-radius: 6px;
+}
+.bTittle {
+	position: relative;
+	top: -15px;
+	color: white;
+	font-size: 1.1em;
+}
+
+
+.description1 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.description2 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.description3 {
+	grid-column-start: 6;
+	grid-column-end: 8;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.descriptionTittle {
+	margin-left: auto;
+	margin-right: auto;
+	color: #0d52ec;
+	/*font-family: "righteous";*/
+
+}
+
+
+
+/*Hot deals!!!!!!!!!!*/
+/*Hot deals!!!!!!!!!!*/
+.hotSection {
+	position: relative;
+	bottom: 300px; 
+	grid-column-start: 2;
+	grid-column-end: 8;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	text-align: center;
+}
+.deals {
+	font-size: 1.8em;
+	text-decoration: underline;
+	color:  #0d52ec;
+}
+#hotTittle {
+	font-size: 2.3em;
+}
